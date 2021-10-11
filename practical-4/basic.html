@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="basicServer.php" method="GET">
+        <label for="text">Text: </label>
+        <input type="text" name="text" id="text"><br>
+
+        <p>Hobbies</p>
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" name="hobby[]" id="gaming" value="gaming"><br>
+
+        <label for="programming">Programming</label>
+        <input type="checkbox" name="hobby[]" id="programming" value="programming"><br>
+
+        <br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"><br>
+
+        <br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
