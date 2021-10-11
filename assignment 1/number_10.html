@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            transition: width 2s;
+        }
+
+        div:hover {
+            width: 300px;
+        }
+        div.a {
+            margin: 100px;
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: rotate(20deg);
+        }
+
+        div.b {
+            margin: 100px;
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: skewY(20deg);
+        }
+
+        div.c {
+            margin: 100px;
+            width: 150px;
+            height: 80px;
+            background-color: yellow;
+            transform: scaleY(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="a">Hello World!</div>
+    <br>
+
+    <div class="b">Hello World!</div>
+    <br>
+
+    <div class="c">Hello World!</div>
+</body>
+</html>
